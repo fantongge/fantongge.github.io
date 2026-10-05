@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang=\"zh-CN\">
+<head>
+  <meta charset=\"UTF-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+  <title>范通格 · 个人主页</title>
+  <link rel=\"stylesheet\" href=\"styles.css\">
+  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
+  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap\" rel=\"stylesheet\">
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <header>
+    <nav class=\"container\">
+      <div class=\"logo\">FTG</div>
+      <ul class=\"nav-links\">
+        <li><a href=\"#work\">作品</a></li>
+        <li><a href=\"#about\">关于</a></li>
+        <li><a href=\"#contact\">联系</a></li>
+      </ul>
+      <a href=\"#contact\" class=\"btn-primary\">开始交流</a>
+    </nav>
+  </header>
+
+  <!-- Hero 主视觉 -->
+  <section class=\"hero\">
+    <div class=\"container\">
+      <div class=\"hero-content\">
+        <span class=\"badge\">👋 你好，我是</span>
+        <h1>范通格</h1>
+        <p class=\"hero-subtitle\">我设计并构建数字产品，<br>在这里展示我的作品与故事</p>
+        <div class=\"hero-actions\">
+          <a href=\"#work\" class=\"btn-primary btn-lg\">查看作品</a>
+          <a href=\"#about\" class=\"btn-secondary btn-lg\">了解更多</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品展示 -->
+  <section id=\"work\" class=\"section\">
+    <div class=\"container\">
+      <div class=\"section-header\">
+        <h2>我的作品</h2>
+        <p>亲手打造的产品</p>
+      </div>
+      <div class=\"work-grid\">
+        <!-- 手部美学评分 - 主推项目 -->
+        <div class=\"work-card featured\">
+          <div class=\"card-image\" style=\"background: linear-gradient(135deg, #7b1fa2 0%, #4a148c 100%);\">
+            <span>✧ 手部美学评分</span>
+          </div>
+          <div class=\"card-body\">
+            <h3>手部美学评分 ✧ AI 手部分析</h3>
+            <p>用户上传手部照片，AI 从手型比例、手指直度、皮肤细滑度、指甲健康、肤色均匀度、双手对称性六个维度综合评分，并生成个性化护理建议。支持微信支付和兑换码。</p>
+            <div class=\"card-tags\">
+              <span>Node.js</span>
+              <span>纯前端</span>
+              <span>AI 评分引擎</span>
+              <span>微信支付</span>
+              <span>兑换码</span>
+            </div>
+            <a href=\"#\" class=\"btn-demo\" onclick=\"alert('部署后更新此链接');return false\">→ 体验一下</a>
+          </div>
+        </div>
+
+        <!-- 评分维度卡片 -->
+        <div class=\"work-card\">
+          <div class=\"card-image\" style=\"background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);\">
+            <span>✦ 评分维度</span>
+          </div>
+          <div class=\"card-body\">
+            <h3>六大评分维度</h3>
+            <div class=\"dims-grid\">
+              <div class=\"dim-item\">📐 手型比例</div>
+              <div class=\"dim-item\">📏 手指直度</div>
+              <div class=\"dim-item\">✨ 皮肤细滑度</div>
+              <div class=\"dim-item\">💅 指甲健康</div>
+              <div class=\"dim-item\">🎨 肤色均匀度</div>
+              <div class=\"dim-item\">🤲 双手对称性</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 更多项目 -->
+        <div class=\"work-card\">
+          <div class=\"card-image\" style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\">
+            <span>更多项目</span>
+          </div>
+          <div class=\"card-body\">
+            <h3>更多项目开发中</h3>
+            <p>持续构建有趣的产品，敬请期待...</p>
+            <div class=\"card-tags\">
+              <span>Coming Soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于 -->
+  <section id=\"about\" class=\"section bg-light\">
+    <div class=\"container\">
+      <div class=\"section-header\">
+        <h2>关于我</h2>
+      </div>
+      <div class=\"about-content\">
+        <div class=\"about-text\">
+          <p>我是一名热爱创造的全栈开发者，专注于构建实用、有趣的数字产品。「手部美学评分」是我独立完成的全栈项目，从前端交互到后端评分引擎全部自主实现。</p>
+          <p>我相信好的产品来自于对细节的打磨和对用户体验的追求。持续学习，持续构建。</p>
+          <div class=\"about-stats\">
+            <div class=\"stat\">
+              <span class=\"stat-number\">3+</span>
+              <span class=\"stat-label\">年经验</span>
+            </div>
+            <div class=\"stat\">
+              <span class=\"stat-number\">10+</span>
+              <span class=\"stat-label\">完成项目</span>
+            </div>
+            <div class=\"stat\">
+              <span class=\"stat-number\">5+</span>
+              <span class=\"stat-label\">合作客户</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section id=\"contact\" class=\"section\">
+    <div class=\"container\">
+      <div class=\"section-header\">
+        <h2>联系我</h2>
+        <p>有项目想聊聊？欢迎随时联系</p>
+      </div>
+      <div class=\"contact-content\">
+        <div class=\"contact-info\">
+          <div class=\"contact-item\">
+            <span class=\"contact-icon\">📧</span>
+            <span>contact@508052.xyz</span>
+          </div>
+          <div class=\"contact-item\">
+            <span class=\"contact-icon\">💬</span>
+            <span>微信：fantongge</span>
+          </div>
+          <div class=\"contact-item\">
+            <span class=\"contact-icon\">🐙</span>
+            <span>github.com/fantongge</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer>
+    <div class=\"container\">
+      <p>&copy; 2026 范通格 · <a href=\"https://508052.xyz\" style=\"color:#999\">508052.xyz</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
